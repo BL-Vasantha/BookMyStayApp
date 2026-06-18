@@ -19,7 +19,6 @@ public class InventoryService {
         return roomInventory;
     }
 
-
     public void displayInventory() {
         System.out.println("\n===== HOTEL INVENTORY =====");
         for (Room room : roomInventory.values()) {

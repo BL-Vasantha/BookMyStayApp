@@ -14,7 +14,6 @@ public class Reservation {
         return guestName;
     }
 
-
     public String getRoomType() {
         return roomType;
     }

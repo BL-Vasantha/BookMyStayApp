@@ -62,6 +62,7 @@ public class ReservationConfirmationService {
         for (Map.Entry<String, Set<String>> entry : allocatedRooms.entrySet()) {
             System.out.println(entry.getKey() + " -> " + entry.getValue());
         }
+
     }
 
 

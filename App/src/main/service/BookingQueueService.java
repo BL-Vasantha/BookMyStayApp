@@ -38,9 +38,8 @@ public class BookingQueueService {
             System.out.println(reservation);
         }
     }
-
-    
     public int getPendingRequestCount() {
         return bookingQueue.size();
     }
+
 }
