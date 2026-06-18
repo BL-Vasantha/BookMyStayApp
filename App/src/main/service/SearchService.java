@@ -12,6 +12,7 @@ public class SearchService {
         this.roomInventory = roomInventory;
     }
 
+
     public void displayAvailableRooms() {
         System.out.println("\n===== AVAILABLE ROOMS =====");
         boolean roomFound = false;

@@ -18,9 +18,11 @@ public class Reservation {
         return roomType;
     }
 
+
     @Override
     public String toString() {
         return "Guest Name : " + guestName +
                 ", Room Type : " + roomType;
+
     }
 }
