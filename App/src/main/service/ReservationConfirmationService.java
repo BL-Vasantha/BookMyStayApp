@@ -64,6 +64,7 @@ public class ReservationConfirmationService {
         }
     }
 
+
     public void displayBookedRoomIds() {
         System.out.println("\nBooked Room IDs : " + bookedRoomIds);
     }
