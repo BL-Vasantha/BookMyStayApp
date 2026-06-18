@@ -42,7 +42,6 @@ public class SearchService {
         }
     }
 
-
     public boolean isRoomAvailable(String roomType) {
         Room room = roomInventory.get(roomType);
         return room != null &&

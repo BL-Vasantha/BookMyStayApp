@@ -38,7 +38,6 @@ public class Room {
         return amenities;
     }
 
-
     @Override
     public String toString() {
         return "Room Type : " + roomType +

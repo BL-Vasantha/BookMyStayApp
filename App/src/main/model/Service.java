@@ -17,7 +17,6 @@ public class Service {
     public double getCost() {
         return cost;
     }
-
     @Override
     public String toString() {
         return serviceName + " (₹" + cost + ")";
