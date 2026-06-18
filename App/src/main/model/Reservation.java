@@ -14,15 +14,14 @@ public class Reservation {
         return guestName;
     }
 
+
     public String getRoomType() {
         return roomType;
     }
-
 
     @Override
     public String toString() {
         return "Guest Name : " + guestName +
                 ", Room Type : " + roomType;
-
     }
 }
